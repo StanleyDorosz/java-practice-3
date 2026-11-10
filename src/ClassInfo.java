@@ -5,8 +5,6 @@ public class ClassInfo {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("        Example Output");
-
         System.out.print("Enter your age: ");
         int age = sc.nextInt();
 
