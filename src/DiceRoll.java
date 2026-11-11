@@ -3,6 +3,14 @@ import java.util.Random;
 public class DiceRoll {
     public static void main(String [] args) {
 
+        Random random = new Random();
+
+        int diceOne = random.nextInt(1,7);
+        int diceTwo = random.nextInt(1,7);
+
+        int diceTotal = diceOne + diceTwo;
+        int higherDiceValue = Math.max(diceOne, diceTwo);
+
         System.out.println("Dice 1: " + diceOne);
         System.out.println("Dice 2: " + diceTwo);
 
